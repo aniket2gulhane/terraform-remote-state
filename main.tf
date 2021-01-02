@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "aniket-terraform-backend-state"  
+  bucket = "aniket-terraform-backend-state100"  
   versioning {
     enabled = true
   }  
